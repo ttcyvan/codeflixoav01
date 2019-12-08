@@ -1,7 +1,7 @@
 const path = require("path");
 const fs = require("fs");
 
-/*const env = require("./parseEnv");
+const env = require("./parseEnv");
 const ini = require("./parseInit");
 
 const args = process.argv.slice(2);
@@ -25,8 +25,6 @@ console.log(content)
 ini(content)
 env(content)
 
-
-*/
 
 fs.readFile('./php.ini','utf-8',function(err, data){
 
